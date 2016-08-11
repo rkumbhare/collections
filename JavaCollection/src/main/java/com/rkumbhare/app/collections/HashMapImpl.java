@@ -163,6 +163,7 @@ public class HashMapImpl<K, V> {
 					} else {
 						previous.next = current.next;
 					}
+					size--;
 					return current.value;
 				}
 				previous = current;
@@ -183,6 +184,7 @@ public class HashMapImpl<K, V> {
 				} else {
 					previous.next = current.next;
 				}
+				size--;
 				return current.value;
 			}
 		}
