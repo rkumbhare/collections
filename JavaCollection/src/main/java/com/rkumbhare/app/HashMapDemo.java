@@ -7,7 +7,7 @@ package com.rkumbhare.app;
 
 import com.rkumbhare.app.collections.HashMapImpl;
 
-public class HashMapDemo {
+public class HashMapDemo { 
 
 	public static void main(String[] args) {
 		HashMapImpl<String, String> map = new HashMapImpl<String, String>();
