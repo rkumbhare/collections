@@ -5,12 +5,12 @@
 
 package com.rkumbhare.app.collections;
 
-public class SinglyLinkedList<E> {
+public class SinglyLinkedList_0<E> {
 	private Node<E> head;
 	private Node<E> tail;
 	private int size;
 
-	public SinglyLinkedList() {
+	public SinglyLinkedList_0() {
 		head = null;
 		tail = null;
 		size = 0;
@@ -231,7 +231,7 @@ public class SinglyLinkedList<E> {
 	}
 
 	public static void main(String[] args) {
-		SinglyLinkedList<String> linkedList = new SinglyLinkedList<String>();
+		SinglyLinkedList_0<String> linkedList = new SinglyLinkedList_0<String>();
 
 		linkedList.add("A");
 		linkedList.add("B");
